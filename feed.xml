@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Léo Sumi’s random thoughts</title>
+    <link>https://leosumi.github.io</link>
+    <description>Hi, Léo here. Welcome to my small piece of internet. I wrote to put words on thoughts I have. I display them here for everyone to see. Look around: you may find some posts of interest to you.</description>
+    <item>
+      <title>Going static - Hello World! chronicle</title>
+      <link>https://leosumi.github.io/chronicles/hello-world.html#going-static</link>
+      <description>The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.</description>
+    </item>
+    <item>
+      <title>How to learn C</title>
+      <link>https://leosumi.github.io/articles/how-to-learn-c.html</link>
+      <description>An article about the C programming language</description>
+    </item>
+    <item>
+      <title>Feed me - Hello World! chronicle</title>
+      <link>https://leosumi.github.io/chronicles/hello-world.html#feed-me</link>
+      <description>The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.</description>
+    </item>
+  </channel>
+</rss>
