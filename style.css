@@ -25,4 +25,24 @@
     {
         color: #0f7;
     }
+
+    #links + ul
+    {
+        list-style-type: none;
+    }
+
+    .feed-icon
+    {
+        margin-left: 3px;
+        padding: 0 0 0 19px;
+        background: url("./res/icons/feed-icon/feed-icon-14x14.png") no-repeat 0 50%;
+    }
+
+    .github-icon
+    {
+        margin-left: 3px;
+        padding: 0 0 0 19px;
+        background: url("./res/icons/GitHub-Mark/GitHub-Mark-Light-32px.png") no-repeat 0 50%;
+        background-size: 14px;
+    }
 }
