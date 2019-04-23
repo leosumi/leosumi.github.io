@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Léo Sumi" />
+  <meta name="dcterms.date" content="2019-04-23" />
+  <title>Léo Sumi – RSS feeds are underused</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<a href="../index.html">Home</a> / <a href="index.html">Articles</a>
+<header id="title-block-header">
+<h1 class="title">RSS feeds are underused</h1>
+<p class="author">Léo Sumi</p>
+<p class="date">23 April 2019</p>
+</header>
+<p>RSS feed is the most underused web technology. Most people have never heard about it. If you are part of these people, this article is for you.</p>
+<p>RSS stands for Really Simple Syndication. It is a web syndication technology. RSS is mostly used to be informed when new content is posted on a website. Most news site and blogs provide an RSS feed that can be used. You can also create feeds for YouTube channels or twitter accounts.</p>
+<p>The benefice is huge. No need to look if new content was posted on a blog, or if a new video was uploaded by your favorite content creator. Everything is centralized and available from a single application. You will know when new content is available. No more time spent looking for new upload.</p>
+<p>To use RSS feeds, you need two things: the RSS feed for the content you want to follow and an application to read the feed.</p>
+<h2 id="rss-readers">RSS readers</h2>
+<p>Lots of different application are available. The following applications are free and open source. They are also available for Windows, Mac and Linux.</p>
+<ul>
+<li><a href="https://quiterss.org/">QuiteRSS</a></li>
+<li><a href="https://www.thunderbird.net/en-US/">Mozilla Thunderbird</a></li>
+</ul>
+<p>If you want a simple application, use QuiteRSS. It is straightforward. If you already use Thunderbird as an email reader, you can use it to read RSS feeds too. In my case, I use <a href="https://newsboat.org">newsboat</a>. It is a small application for the terminal, but it is only available for Linux.</p>
+<p>Online services also exist, but you will need to create an account and log in to have access to it. I am not a fan of them. If you want a list to check out, look for:</p>
+<ul>
+<li><a href="https://feedly.com/i/welcome">Feedly</a></li>
+<li><a href="https://theoldreader.com/">The Old Reader</a></li>
+<li><a href="https://www.inoreader.com/">Inoreader</a></li>
+<li><a href="https://feeder.co/">Feeder</a></li>
+<li><a href="https://feedreader.com/">Feedreader</a></li>
+</ul>
+<p>When you have chosen an application and installed it, it is time to look for feeds.</p>
+<h2 id="rss-feeds">RSS feeds</h2>
+<p>To use an RSS feed, you will need the URL of the corresponding feed.</p>
+<p>Look for the feed icon: <span class="feed-icon"></span>. Try to find the words RSS or Atom feed. Atom feed is equivalent to RSS feed. It is very similar to RSS feed and has the same purpose.</p>
+<p>For YouTube channels and playlists, you can use the following URLs:</p>
+<ul>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=<strong>CHANNEL</strong></li>
+<li>https://www.youtube.com/feeds/videos.xml?user=<strong>USER</strong></li>
+<li>https://www.youtube.com/feeds/videos.xml?playlist_id=<strong>PLAYLIST</strong></li>
+</ul>
+<p>You will need to replace <strong>CHANNEL</strong>, <strong>USER</strong> and <strong>PLAYLIST</strong> with the corresponding identifier. The identifiers are written inside the URL of the YouTube channel or playlist home pages. Here are some examples.</p>
+<p>The channel ID for the <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a> YouTube channel:</p>
+<ul>
+<li>URL: https://www.youtube.com/channel/<strong>UCYO_jab_esuFRV4b17AJtAw</strong></li>
+<li>RSS: https://www.youtube.com/feeds/videos.xml?channel_id=<strong>UCYO_jab_esuFRV4b17AJtAw</strong></li>
+</ul>
+<p>The user for the <a href="https://www.youtube.com/user/voxdotcom">Vox</a> YouTube channel:</p>
+<ul>
+<li>URL: https://www.youtube.com/user/<strong>voxdotcom</strong></li>
+<li>RSS: https://www.youtube.com/feeds/videos.xml?user=<strong>voxdotcom</strong></li>
+</ul>
+<p>The playlist ID for the <a href="https://www.youtube.com/playlist?list=PLiaHhY2iBX9g6KIvZ_703G3KJXapKkNaF">Imaginary Numbers are Real</a> from the <a href="https://www.youtube.com/channel/UConVfxXodg78Tzh5nNu85Ew">Welch Labs</a> YouTube channel:</p>
+<ul>
+<li>URL: https://www.youtube.com/playlist?list=<strong>PLiaHhY2iBX9g6KIvZ_703G3KJXapKkNaF</strong></li>
+<li>RSS: https://www.youtube.com/feeds/videos.xml?playlist_id=<strong>PLiaHhY2iBX9g6KIvZ_703G3KJXapKkNaF</strong></li>
+</ul>
+<p>To read Twitter, Instagram, Google Plus and Facebook on RSS feeds, look at <a href="https://queryfeed.net">Queryfeed</a>. You can also look at <a href="https://www.twitrss.me">TwitRSS.me</a> to get twitter user feed as RSS (not working when writing this post). Social medias like twitter do not like the usage of RSS feed to read their contents. They want you to use their website or application. They make the usage of RSS feeds more difficult.</p>
+<p>At the end, I only use RSS feeds for blogs or websites that have a feed available and follow the upload of new videos on YouTube. I save lots of time thanks to this technology.</p>
+<p>This website has an RSS feed. It is available <a href="../feed.xml">here</a>. You can check at this <a href="https://github.com/leosumi/pandoc-rss-template">repository</a> if you want to know how it is implemented.</p>
+</body>
+</html>
