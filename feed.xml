@@ -40,5 +40,11 @@
       <description>An article about RSS feeds</description>
       <pubDate>23 Apr 2019</pubDate>
     </item>
+    <item>
+      <title>A small report about patisiran</title>
+      <link>https://leosumi.com/articles/a-small-report-about-patisiran.html</link>
+      <description>An article about patisiran</description>
+      <pubDate>01 Jun 2019</pubDate>
+    </item>
   </channel>
 </rss>
