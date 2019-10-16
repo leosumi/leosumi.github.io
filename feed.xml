@@ -70,5 +70,11 @@
       <description>An article about touch typing</description>
       <pubDate>11 Aug 2019</pubDate>
     </item>
+    <item>
+      <title>A beautification operation - Hello World! chronicle</title>
+      <link>https://leosumi.com/chronicles/hello-world.html#a-beautification-operation</link>
+      <description>The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.</description>
+      <pubDate>16 Oct 2019</pubDate>
+    </item>
   </channel>
 </rss>
