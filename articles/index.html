@@ -11,12 +11,20 @@
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
-  <link rel="stylesheet" href="../style.css" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
+  <link rel="stylesheet" type="text/css" href="/css/light.css" title="Light theme" />
+  <link rel="alternate stylesheet" type="text/css" href="/css/night.css" title="Night theme" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  
+  <script type="text/javascript" src="/js/styleswitcher.js"></script>
 </head>
 <body>
+<div class="theme-settings">
+  <button type="button" class="theme-button" onclick="setActiveStyleSheet('Light theme')" style="--text-color:#333; --background-color:#fff;">Light</button>
+  <button type="button" class="theme-button" onclick="setActiveStyleSheet('Night theme')" style="--text-color:#cfcfc2; --background-color:#232629;">Night</button>
+</div>
 <a href="../index.html">Home</a>
 <header id="title-block-header">
 <h1 class="title">Articles</h1>

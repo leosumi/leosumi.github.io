@@ -1,0 +1,91 @@
+/*
+ * Main Style Sheet
+ */
+
+/*
+ * Theme buttons
+ */
+.theme-settings
+{
+    float: right;
+}
+
+.theme-button
+{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.theme-button:hover
+{
+    box-shadow: 2px 2px 2px gray;
+}
+
+/*
+ * Primary styles
+ */
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: none;
+
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+p
+{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+a
+{
+    color: var(--primary-color);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+/*
+ * External links
+ */
+#links + ul
+{
+    list-style-type: none;
+}
+
+.feed-icon
+{
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: var(--feed-icon-url) no-repeat 0 50%;
+}
+
+.github-icon
+{
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: var(--github-icon-url) no-repeat 0 50%;
+    background-size: 14px;
+}
+
+.twitter-icon
+{
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: var(--twitter-icon-url) no-repeat 0 50%;
+    background-size: 14px;
+}

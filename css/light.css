@@ -1,0 +1,15 @@
+/*
+ * Light theme
+ *
+ * Based on the R notebook colorscheme
+ */
+:root
+{
+    --primary-color: #337ab7;
+    --text-color: #333;
+    --background-color: #fff;
+
+    --feed-icon-url: url("/res/icons/feed-icon/feed-icon-14x14.png");
+    --github-icon-url: url("/res/icons/GitHub-Mark/GitHub-Mark-32px.png");
+    --twitter-icon-url: url("/res/icons/twitter-icon/Twitter_Social_Icon_Circle_Color.png");
+}
