@@ -27,6 +27,15 @@
 }
 
 /*
+ * Source code
+ */
+pre.sourceCode
+{
+	border-left: 3px solid var(--primary-color);
+	padding-left: 1em;
+}
+
+/*
  * Primary styles
  */
 body
