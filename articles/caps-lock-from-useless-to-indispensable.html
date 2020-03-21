@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Léo Sumi" />
+  <meta name="dcterms.date" content="2020-03-21" />
+  <title>Léo Sumi – Caps lock: from useless to indispensable</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="/css/light.css" title="Light theme" />
+  <link rel="alternate stylesheet" type="text/css" href="/css/night.css" title="Night theme" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <script type="text/javascript" src="/js/styleswitcher.js"></script>
+</head>
+<body>
+<div class="theme-settings">
+  <button type="button" class="theme-button" onclick="setActiveStyleSheet('Light theme')" style="--text-color:#333; --background-color:#fff;">Light</button>
+  <button type="button" class="theme-button" onclick="setActiveStyleSheet('Night theme')" style="--text-color:#cfcfc2; --background-color:#232629;">Night</button>
+</div>
+<a href="../index.html">Home</a> / <a href="index.html">Articles</a>
+<header id="title-block-header">
+<h1 class="title">Caps lock: from useless to indispensable</h1>
+<p class="author">Léo Sumi</p>
+<p class="date">21 March 2020</p>
+</header>
+<p>Here is a quick tip for Linux users. In particular vim masters (and maybe some emacs folks).</p>
+<p>Thanks to typewriter, keyboard layouts suck. As it is generally not possible to change your keyboard layout due to years of muscle memory, I propose here a tiny change, easy to implement, but with huge consequencies. It is a small optimisation that will reduce pains and prevent injuries.</p>
+<p>Remap the caps lock key to control <strong>and</strong> escape.</p>
+<p>If you are a vim user as I am, you use the control and escape key a lot. Using the caps lock key will avoid unnecessary pinkie travel. Pressing control or escape keys become trivial. If the caps lock key is maintained, the control signal is sent. And when the key is released, the escape signal is sent.</p>
+<p>Just add the following lines in your .profile (or .bashrc) config file.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Use caps lock as ctrl and esc</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="ex">setxkbmap</span> -option <span class="st">&#39;caps:ctrl_modifier&#39;</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="ex">xcape</span> -e <span class="st">&#39;Caps_Lock=Escape&#39;</span></span></code></pre></div>
+<p>Obviously, the <code>setxkbmap</code> and <code>xcape</code> commands need to be installed.</p>
+</body>
+</html>
