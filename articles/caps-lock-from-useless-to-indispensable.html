@@ -102,9 +102,9 @@
 <p>Remap the caps lock key to control <strong>and</strong> escape.</p>
 <p>If you are a vim user as I am, you use the control and escape key a lot. Using the caps lock key will avoid unnecessary pinkie travel. Pressing control or escape keys become trivial. If the caps lock key is maintained, the control signal is sent. And when the key is released, the escape signal is sent.</p>
 <p>Just add the following lines in your .profile (or .bashrc) config file.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Use caps lock as ctrl and esc</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="ex">setxkbmap</span> -option <span class="st">&#39;caps:ctrl_modifier&#39;</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="ex">xcape</span> -e <span class="st">&#39;Caps_Lock=Escape&#39;</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co"># Use caps lock as ctrl and esc</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="ex">setxkbmap</span> -option <span class="st">&#39;caps:ctrl_modifier&#39;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="ex">xcape</span> -e <span class="st">&#39;Caps_Lock=Escape&#39;</span></span></code></pre></div>
 <p>Obviously, the <code>setxkbmap</code> and <code>xcape</code> commands need to be installed.</p>
 </body>
 </html>
