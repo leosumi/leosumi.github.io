@@ -20,12 +20,13 @@
   <button type="button" class="theme-button" onclick="setActiveStyleSheet('Light theme')" style="--text-color:#333; --background-color:#fff;">Light</button>
   <button type="button" class="theme-button" onclick="setActiveStyleSheet('Night theme')" style="--text-color:#cfcfc2; --background-color:#232629;">Night</button>
 </div>
-<a href="../index.html">Home</a> / <a href="index.html">Chronicles</a>
+<a href="/index.html">Home</a> / <a href="/chronicles/index.html">Chronicles</a>
 <header id="title-block-header">
 <h1 class="title">Hello World!</h1>
 <p class="author">Léo Sumi</p>
 <p class="date">5 April 2019</p>
 </header>
+<div id="content">
 <p>The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.</p>
 <h2 id="going-static">Going static</h2>
 <p>5 April 2019</p>
@@ -70,5 +71,14 @@
 <p>I also added a custom <a href="/404.html">404</a> page and an <a href="/about.html">about</a> page.</p>
 <p>Finally, I tried to clearly separate content to the code needed for the website generation. I discovered that HTML understands root relative path. This was used to simplify linking between pages. No more need for dubious and long relative paths.</p>
 <p>But, it is always possible to do better. For instance, I do not have a favicon yet. The website should be tested on multiple browser and screen size. The script that build the webpages could be rewritten. And I could translate some posts in french.</p>
+</ div>
+<footer>
+<hr />
+<ul>
+<li><a href="/feed.xml" class="feed-icon"></a></li>
+<li><a href="https://github.com/leosumi" class="github-icon"></a></li>
+<li><a href="https://twitter.com/LeoSumiVox" class="twitter-icon"></a></li>
+</ul>
+</footer>
 </body>
 </html>

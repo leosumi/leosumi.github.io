@@ -20,12 +20,13 @@
   <button type="button" class="theme-button" onclick="setActiveStyleSheet('Light theme')" style="--text-color:#333; --background-color:#fff;">Light</button>
   <button type="button" class="theme-button" onclick="setActiveStyleSheet('Night theme')" style="--text-color:#cfcfc2; --background-color:#232629;">Night</button>
 </div>
-<a href="../index.html">Home</a> / <a href="index.html">Articles</a>
+<a href="/index.html">Home</a> / <a href="/articles/index.html">Articles</a>
 <header id="title-block-header">
 <h1 class="title">Caps lock: from useless to indispensable</h1>
 <p class="author">Léo Sumi</p>
 <p class="date">21 March 2020</p>
 </header>
+<div id="content">
 <p>Here is a quick tip for Linux users. In particular vim masters (and maybe some emacs folks).</p>
 <p>Thanks to typewriter, keyboard layouts suck. As it is generally not possible to change your keyboard layout due to years of muscle memory, I propose here a tiny change, easy to implement, but with huge consequencies. It is a small optimisation that will reduce pains and prevent injuries.</p>
 <p>Remap the caps lock key to control <strong>and</strong> escape.</p>
@@ -35,5 +36,14 @@
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">setxkbmap</span> -option <span class="st">&#39;caps:ctrl_modifier&#39;</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">xcape</span> -e <span class="st">&#39;Caps_Lock=Escape&#39;</span></span></code></pre></div>
 <p>Obviously, the <code>setxkbmap</code> and <code>xcape</code> commands need to be installed.</p>
+</ div>
+<footer>
+<hr />
+<ul>
+<li><a href="/feed.xml" class="feed-icon"></a></li>
+<li><a href="https://github.com/leosumi" class="github-icon"></a></li>
+<li><a href="https://twitter.com/LeoSumiVox" class="twitter-icon"></a></li>
+</ul>
+</footer>
 </body>
 </html>
